@@ -111,6 +111,7 @@ class PessoaController {
 
   // http://localhost:3000/pessoas/2/matricula/6
   // http://localhost:3000/pessoas/:estudanteId/matricula/:matriculaId
+  
   static async apagaMatricula(req, res) {
     const { estudanteId, matriculaId } = req.params;
     try {
